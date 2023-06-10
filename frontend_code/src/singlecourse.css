@@ -1,0 +1,53 @@
+.singlecourse-page {
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  padding: 1.25rem 0;
+}
+.accordion {
+  width: 20vw;
+  height: 100%;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.25);
+  border-right: 1px solid rgba(192, 192, 192, 0.25);
+}
+.singlecourse-content {
+  width: 75vw;
+  padding: 1.5rem 0;
+}
+.accordion-body {
+  padding: 0;
+}
+.accordion-body ul {
+  padding: 11px 20px;
+  width: 100%;
+  cursor: pointer;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.25);
+}
+.accordion-body ul:hover {
+  background-color: rgba(222, 222, 222, 0.314);
+}
+.accordion-button,
+.accordion-button:focus {
+  box-shadow: none;
+  border: none;
+}
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.25);
+}
+.singlecourse-content-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.singlecourse-content-video-div{
+    margin-top: 1.5rem;
+    height: 75%;
+    width: 85%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 3px 3px 15px 5px rgba(156, 156, 156, 1);
+}

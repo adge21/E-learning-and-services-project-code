@@ -1,0 +1,168 @@
+.about-us-page {
+  padding: 4rem 11%;
+}
+
+.about-us-card-div {
+  border-radius: 6px;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+  padding: 2rem;
+}
+.about-us-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-us-card-content,
+.about-us-card-img {
+  width: 50%;
+}
+.about-us-card-content,
+.about-content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 1rem;
+}
+.about-content-head {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.about-content-point {
+  margin-top: 0.25rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+.about-point-icon {
+  color: #ee9ce5;
+}
+.aboutus-courses-div {
+  padding: 5rem 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.5rem;
+}
+.aboutus-courses-head,
+.contact-us-head {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.aboutus-courses-card {
+  box-shadow: 0px 0px 25px 5px rgba(49, 32, 138, 0.05);
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  height: 30vh;
+}
+.aboutus-courses-card-content {
+  width: 65%;
+}
+.aboutus-courses-card-head {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.aboutus-courses-card-content-text {
+  margin-top: 0.75rem;
+}
+.aboutus-courses-card-img {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutus-course-img-growth {
+  width: 80%;
+}
+.aboutus-course-img-data {
+  width: 70%;
+  align-self: flex-end;
+}
+
+/* ____________________________________________________________________ */
+
+.contactus-div {
+  padding: 5rem 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.5rem;
+}
+.contactus-card-div {
+  background: url("./assets/contactus-bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 3rem;
+  color: white;
+}
+.contactus-row {
+  display: flex;
+  column-gap: 6rem;
+  padding: 1rem 0;
+}
+.contactus-bg-div,
+.getintouch-form-div {
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.contactus-bg-div {
+  background-color: #fff;
+  opacity: 0.8;
+  color: black;
+  align-items: center;
+}
+.contactus-bg {
+  width: 100%;
+}
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 1.5rem;
+}
+.form-row {
+  width: 100%;
+  display: flex;
+  column-gap: 1.25rem;
+}
+.form-col {
+  width: 50%;
+}
+.contact-form-input {
+  width: 100%;
+  border: 1px solid #e7e6ef;
+  outline: 1px solid #e7e6ef;
+  padding: 10px 15px;
+  opacity: 0.8;
+}
+.contact-form-input::placeholder {
+  color: black;
+}
+.textarea {
+  resize: none;
+}
+.form-submit-btn {
+  background-color: #3e56c4;
+  color: #fff;
+  padding: 4px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.thankyou-txt {
+  width: 100%;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.contact-us-title {
+  width: 100%;
+  text-align: center;
+  font-size: 1.75rem;
+}
